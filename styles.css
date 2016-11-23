@@ -7,15 +7,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  font-family: 'Nixie One',cursive;
+
+  color: #000000;
+  background: #f9f6f6;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #a62727;
 }
 a:hover {
   color: #6633ff;
