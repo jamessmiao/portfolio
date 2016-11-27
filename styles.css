@@ -4,29 +4,31 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   font-family: 'Nixie One',cursive;
 
   color: #000000;
-  background: #f9f6f6;
+  background: #f1f1f1;
 }
 /* Link Styles */
 
 a {
-  text-decoration: none;
-  color: #a62727;
+  text-decoration:none;
+  color: #000000;
+
 }
 a:hover {
-  color: #6633ff;
+  text-decoration: underline;
+
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background:rgba(0, 0, 0, 0);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,16 +46,16 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #000000;
 }
 .nav li {
-  padding: 5px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color:rgb(0, 0, 0)
 }
 
 header {
@@ -61,33 +63,30 @@ header {
   background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 header {
-  line-height: 1.5;
+  line-height: 2.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 200px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 10%;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  color: rgb(0, 0, 0);
 }
 .card {
   margin: 30px;
@@ -95,12 +94,12 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 4px solid #000000;
+  border-radius: 0px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0003ff;
 }
 
 ul.skills {
@@ -109,27 +108,26 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 0px;
   display: inline-block;
-  background: #ff9904;
+  background: #000000;
   color: white;
-  padding: 5px 10px;
-  margin: 2px;
+  padding: 10px 10px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #0f03ff;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 20px 40px 20px;
 }
 
 footer .copyright {
-  top: -8px;
-  font-size: .75em;
+  top: 8px;
+  font-size: 0.75em;
 }
 
 footer ul {
@@ -144,12 +142,12 @@ footer ul li {
 
 a.social {
   display: inline-block;
-  text-indent: -9999px;
+  text-indent: -9999PX;
   margin-left: 5px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .8;
   transition: all .5s;
 }
 a.twitter {
